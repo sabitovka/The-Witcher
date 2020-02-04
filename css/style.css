@@ -1,0 +1,36 @@
+body {
+  background-color: #141218;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list {
+  margin-right: auto;
+  margin-left: 68px;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.social-link {
+  margin-left: 20px;
+}
