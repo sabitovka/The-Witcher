@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   background-color: #141218;
   background-image: url('../img/background.jpg');
@@ -285,6 +288,7 @@ body {
     background-color: white;
     transition: transform 0.2s;
     margin-top: -7px;
+    z-index: 2;
   }
   .menu-button:after {
     content: '';
@@ -321,6 +325,7 @@ body {
   }
   .header-active {
     display: flex;
+    z-index: 1;
   }
   .logo{
     margin-bottom: 25px;
