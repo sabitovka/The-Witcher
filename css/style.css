@@ -288,7 +288,6 @@ body {
     background-color: white;
     transition: transform 0.2s;
     margin-top: -7px;
-    z-index: 2;
   }
   .menu-button:after {
     content: '';
@@ -304,6 +303,7 @@ body {
   }
   .menu-button-active {
     height: 0;
+    z-index: 2;
   }
   .menu-button-active:before {
     transform: rotate(45deg);
